@@ -18,7 +18,7 @@ def calculadora():
         sm = nr1 / nr2
         print(sm)
 
-    elif conta == "Subtração" or conta == "-" or conta == "menos":
+    elif conta == "Subtração" or conta == "-" or conta == "menos" or conta == "/":
         numero1 = int(input("DIgite um numero: "))
         numero2 = int(input("Digite outro numero: "))
         result = numero1 - numero2
